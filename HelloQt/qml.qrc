@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>anchor.qml</file>
+        <file>exercise1.qml</file>
+        <file>grid.qml</file>
+        <file>row.qml</file>
+        <file>column.qml</file>
+        <file>row_column_grid.qml</file>
+        <file>mouse_click.qml</file>
+        <file>mouse_drag.qml</file>
+        <file>mouse_hover.qml</file>
+        <file>keyboard_input.qml</file>
+        <file>keyboard_focus_navigation.qml</file>
+        <file>keyboard_navigation_non_text.qml</file>
+    </qresource>
+</RCC>
