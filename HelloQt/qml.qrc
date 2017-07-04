@@ -14,5 +14,22 @@
         <file>keyboard_input.qml</file>
         <file>keyboard_focus_navigation.qml</file>
         <file>keyboard_navigation_non_text.qml</file>
+        <file>keyboard_accept.qml</file>
+        <file>keyboard_rotate_image.qml</file>
+        <file>exercise2.qml</file>
+        <file>state.qml</file>
+        <file>state_when_edittext.qml</file>
+        <file>animation_drop_and_bounce.qml</file>
+        <file>animation_scale_image.qml</file>
+        <file>property_behavior.qml</file>
+        <file>timer.qml</file>
+        <file>TrafficLight.qml</file>
+        <file>getdate.js</file>
+        <file>mock_signla_light_component.qml</file>
+        <file>MyModel.qml</file>
+        <file>mylist.qml</file>
+        <file>Button.qml</file>
+        <file>ContactsModel.qml</file>
+        <file>contactslist.qml</file>
     </qresource>
 </RCC>
