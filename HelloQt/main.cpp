@@ -1,27 +1,24 @@
 #include <QGuiApplication>
-#include <QQuickView>
 #include <QQmlApplicationEngine>
+#include <applistmodel.h>
+#include <QTime>
+#include <QDebug>
 
+//show application with QQmlApplicationEngine and you can control your app totally in qml
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
-    QQuickView view;
-    view.setSource(QUrl(QStringLiteral("qrc:/qml/xml_display.qml")));
-    view.show();
+    qmlRegisterType<AppListModel>("AppListModel", 1, 0, "AppListModel");
+    qmlRegisterType<App>("AppListModel", 1, 0, "App");
+
+    QQmlApplicationEngine engine;
+
+    QTime q;
+    q.restart();
+    engine.load(QUrl(QStringLiteral("qrc:/launcher/test.qml")));
+    qDebug(" load main page time = %d", q.elapsed()) ;
 
     //Application main event looper
     return app.exec();
 }
-
-//show application with QQmlApplicationEngine and you can control your app totally in qml
-//int main(int argc, char *argv[])
-//{
-//    QGuiApplication app(argc, argv);
-
-//    QQmlApplicationEngine engine;
-//    engine.load(QUrl(QStringLiteral("qrc:/window/window_exercise.qml")));
-
-//    //Application main event looper
-//    return app.exec();
-//}

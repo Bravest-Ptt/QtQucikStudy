@@ -5,8 +5,6 @@
         <file>qml/animation_scale_image.qml</file>
         <file>qml/Button.qml</file>
         <file>qml/column.qml</file>
-        <file>qml/contactslist.qml</file>
-        <file>qml/contactslist.qml.autosave</file>
         <file>qml/ContactsModel.qml</file>
         <file>qml/contactsview.qml</file>
         <file>qml/exercise1.qml</file>
@@ -54,5 +52,33 @@
         <file>PageView/TestPageView.qml</file>
         <file>PageView/TestPageView_Raw.qml</file>
         <file>qml/xml_display.qml</file>
+        <file>launcher/PageView.qml</file>
+        <file>launcher/PageViewIndicator.qml</file>
+        <file>launcher/test.qml</file>
+        <file>launcher/Page.qml</file>
+        <file>launcher/GridData.qml</file>
+        <file>picture/background/universal.jpg</file>
+        <file>picture/icons/calendar.png</file>
+        <file>picture/icons/camera.png</file>
+        <file>picture/icons/chrome.png</file>
+        <file>picture/icons/Contacts.png</file>
+        <file>picture/icons/facebook.png</file>
+        <file>picture/icons/GooglePlay.png</file>
+        <file>picture/icons/GoogleService.png</file>
+        <file>picture/icons/Instagram.png</file>
+        <file>picture/icons/Moive.png</file>
+        <file>picture/icons/Music.png</file>
+        <file>picture/icons/note.png</file>
+        <file>picture/icons/Phone.png</file>
+        <file>picture/icons/Reddit.png</file>
+        <file>picture/icons/Settings.png</file>
+        <file>picture/icons/Shamam.png</file>
+        <file>picture/icons/six.png</file>
+        <file>picture/icons/Sms.png</file>
+        <file>picture/icons/Twitter.png</file>
+        <file>picture/icons/WhatsApp.png</file>
+        <file>picture/icons/Word.png</file>
+        <file>launcher/DetailActivity.qml</file>
+        <file>launcher/DateUtils.js</file>
     </qresource>
 </RCC>

@@ -3,7 +3,9 @@ TEMPLATE = app
 QT += qml quick
 CONFIG += c++11
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    applistmodule.cpp \
+    app.cpp
 
 RESOURCES += qml.qrc
 
@@ -31,3 +33,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 DISTFILES += \
     qml/xml_data.xml
+
+HEADERS += \
+    applistmodel.h \
+    app.h
